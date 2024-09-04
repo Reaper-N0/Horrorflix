@@ -1,0 +1,60 @@
+body{
+    color: white;
+    background-color: black;
+    font-family: "SUSE", sans-serif;
+    }
+
+header{
+    border-bottom: solid 2px rgb(98, 0, 0);
+    font-size: 27px;
+    color:rgb(98, 0, 0);
+}
+
+.Maioria {
+    background: rgb(92, 13, 13, 0.781) ;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: left;
+
+}
+
+.Video{
+    margin-right: 100px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+ }
+
+h1 {
+       font-size: 33px;
+ }
+
+h3 {
+    font-size: 25px;
+ }
+
+h4 {
+    font-size: 17px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.Recomendaçoẽs {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+}
+
+.Recomendaçoẽs img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.Recomendaçoẽs img:hover {
+    opacity: 1.0;
+    border: 1px solid white;
+}
